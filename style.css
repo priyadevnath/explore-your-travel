@@ -1,0 +1,402 @@
+/* share style */
+*{
+    font-family: "Mulish", sans-serif;
+}
+ *{
+    max-width: 1170px;
+    width: 95%;
+    margin: 10px auto;
+}
+span {
+    color: #FF5400;
+font-size: 36px;
+font-weight: 800;
+}
+.primary-btn {
+    color: #FFF;
+font-size: 20px;
+font-weight: 800;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+width: 150px;
+padding: 15px;
+}
+h3 {
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+h4 {
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+p {
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+}
+/* header start */
+/* nav start */
+
+nav {
+    display: flex;
+    /* justify-content: space-between; */
+}
+nav ul {
+    display: flex;
+    
+}
+nav li {
+    list-style: none;
+    margin-inline: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+
+    
+}
+nav img {
+    width: 40px;
+    margin: 10px;
+}
+nav h3 ,.footer-title h1 {
+    color: #131318;
+font-size: 36px;
+font-weight: 800;
+}
+nav a span {
+    font-size: 18px;
+}
+/* banner start */
+.banner {
+    background: linear-gradient(80deg,#070211 0%,rgba(7,2,17,0)100%),
+    url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    max-width: 1100px;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+.banner h1 {
+    color: #FFF;
+font-size: 50px;
+font-weight: 800;
+text-align: center;
+padding-top: 100px;
+}
+.banner p {
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+padding-top: 10px;
+}
+.form-one {
+    width: 40%;
+    height: 60px;
+    display: flex;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+font-size: 16px;
+font-weight: 400;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+margin-top: 40px;
+
+}
+form input {
+    margin-inline: 5px;
+}
+.search {
+    background-color: #FF5400;
+    color: #FFF;
+    border: none;
+}
+/* header end */
+
+/* Our Popular Tours section start */
+.popular-tours-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.popular-tours-content h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-tours-content p {
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+margin-top: 30px;
+}
+.popular-tours-content ul {
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+margin-top: 30px;
+}
+.popular-tours-content button {
+    margin-top: 20px;
+}
+.popular-tours-content {
+    margin-right: 100px;
+}
+.popular-tours-img img {
+    width: 400px;
+    max-width: 100%;
+    height: 500px;
+border-radius: 16px;
+}
+/* Choose Your Destination saction start */
+.destination-title {
+    width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+.destination-title h3 {
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.destination-title p {
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+}
+.destination-img-two {
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+.destination-img-three {
+    display: grid;
+    grid-template-columns: 290px auto 215px;
+    
+}
+.destination-img-square {
+    display: grid;
+    grid-template-columns: 350px auto; 
+}
+
+/*  Why Choose Us section start */
+.choose-us-title , .discount-title{
+    width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+.choose-us-title p , .discount-title p {
+    margin-top: 30px;
+}
+.choose-us-location {
+    display: flex;
+    gap: 20px;
+}
+.icon-hotel img{
+width: 80px;
+}
+.icon-hotel {
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 20px;
+}
+.icon-map img {
+    width: 60px;
+}
+.icon-map {
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 20px;
+}
+.icon-money img {
+width: 60px;
+}
+.icon-money {
+    width: 500px;
+    margin: 0 auto;
+    gap: 20px;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 20px;
+}
+/* Deals & Discounts section start */
+.discount-title{
+margin-top: 80px;
+}
+
+.icons img {
+    width: 20px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    
+}
+.satorini-container {
+    background:url('Images/Group\ 39.png');
+    max-width:880px;
+    width: 100%;
+background-size: contain;
+    height: 375px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.satorini-one {
+    width: 500px;
+height: 300px;
+    border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+margin-left: 320px;
+padding-left: 10px;
+}
+.satorini-one h4 {
+    font-size: 24px;
+}
+.satorini-one span {
+    font-size: 24px;
+}
+.satorini-container-two {
+    background: url('Images/Group\ 40.png');
+    max-width:880px;
+    width: 100%;
+background-size: contain;
+    height: 375px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+.satorini-container-three {
+    background:url('Images/Group\ 39.png') ;
+   max-width:880px;
+    width: 100%;
+background-size: contain;
+    height: 375px;
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+    margin-top: 50px;
+}
+.satorini-two {
+    width: 500px;
+height: 300px;
+    border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+margin-right: 320px;
+padding-left: 10px;
+}
+.all-package {
+text-align: center;
+}
+.all-package button {
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 800;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+padding: 10px;
+width: 200px;
+margin-top: 30px;
+}
+
+/* Simple Perfect Place section start  */
+.perfect-place-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.perfect-place-title {
+    margin-right: 50px;
+}
+.perfect-place-title p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.perfect-place-title li {
+    margin-bottom: 20px;
+}
+
+/* Newsletter section start */
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    margin-top: 50px;
+    
+   
+}
+.newsletter-title {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin-right: 50px;
+}
+.form-two button  {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    padding: 15px;
+    width: 420px;
+}
+.form-two input {
+    width: 400px;
+height: 52px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+}
+/* footer start */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 80px;
+}
+.footer-title img {
+    width: 40px;
+}
+.footer-title {
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.footer-container p , .footer-container h6{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.footer-icon {
+    display: flex;
+   width: 100px;
+
+}
+.footer-container h6 {
+    margin-top: 30px;
+    padding-bottom: 70px;
+}
