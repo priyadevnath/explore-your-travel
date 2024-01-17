@@ -39,7 +39,9 @@ font-weight: 400;
 }
 /* header start */
 /* nav start */
-
+.nav-title {
+    display: flex;
+}
 nav {
     display: flex;
     /* justify-content: space-between; */
@@ -96,6 +98,9 @@ text-align: center;
 font-size: 16px;
 font-weight: 400;
 padding-top: 10px;
+max-width: 600px;
+width: 100%;
+margin: 0 auto;
 }
 .form-one {
     width: 40%;
@@ -111,17 +116,17 @@ background: rgba(255, 255, 255, 0.30);
 margin-top: 40px;
 
 }
-form input {
+form input ,form select{
     margin-inline: 5px;
 }
 .search {
     background-color: #FF5400;
-    color: #FFF;
-    border: none;
+    color: white;
+    border: 1px solid gray;
 }
 /* header end */
 
-/* Our Popular Tours section start */
+/* Our Popular Tours section-one start */
 .popular-tours-container {
     display: flex;
     justify-content: space-between;
@@ -157,7 +162,7 @@ margin-top: 30px;
     height: 500px;
 border-radius: 16px;
 }
-/* Choose Your Destination saction start */
+/* Choose Your Destination section-two start */
 .destination-title {
     width: 600px;
     margin: 30px auto;
@@ -187,7 +192,7 @@ grid-template-columns: repeat(2, 1fr);
     grid-template-columns: 350px auto; 
 }
 
-/*  Why Choose Us section start */
+/*  Why Choose Us section-three start */
 .choose-us-title , .discount-title{
     width: 600px;
     margin: 30px auto;
@@ -197,7 +202,7 @@ grid-template-columns: repeat(2, 1fr);
     margin-top: 30px;
 }
 .choose-us-location {
-    display: flex;
+     display: flex;
     gap: 20px;
 }
 .icon-hotel img{
@@ -230,7 +235,7 @@ border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
 padding: 20px;
 }
-/* Deals & Discounts section start */
+/* Deals & Discounts section-four start */
 .discount-title{
 margin-top: 80px;
 }
@@ -262,6 +267,7 @@ background: rgba(255, 255, 255, 0.80);
 backdrop-filter: blur(2.5px);
 margin-left: 320px;
 padding-left: 10px;
+
 }
 .satorini-one h4 {
     font-size: 24px;
@@ -280,6 +286,9 @@ background-size: contain;
     align-items: center;
     margin-top: 50px;
    
+}
+.satorini-two span {
+    font-size: 24px;
 }
 .satorini-container-three {
     background:url('Images/Group\ 39.png') ;
@@ -318,7 +327,7 @@ width: 200px;
 margin-top: 30px;
 }
 
-/* Simple Perfect Place section start  */
+/* Simple Perfect Place section-five start  */
 .perfect-place-container{
     display: flex;
     justify-content: space-between;
@@ -328,6 +337,9 @@ margin-top: 30px;
 .perfect-place-title {
     margin-right: 50px;
 }
+.perfect-place-title h3 {
+    font-size: 36px;
+}
 .perfect-place-title p {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -336,13 +348,13 @@ margin-top: 30px;
     margin-bottom: 20px;
 }
 
-/* Newsletter section start */
+/* Newsletter section-six start */
 .newsletter {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #FFF;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     
    
 }
@@ -360,7 +372,7 @@ margin-top: 30px;
     font-weight: 800;
     border: none;
     padding: 15px;
-    width: 420px;
+    width: 410px;
 }
 .form-two input {
     width: 400px;
@@ -368,10 +380,40 @@ height: 52px;
 border-radius: 8px;
 background: rgba(19, 19, 24, 0.05);
 }
+.newsletter-img {
+    width: 100%;
+   height: 100%;
+   margin-top: 100px;
+}
+.save-up {
+    border-radius: 16px;
+background: #FF5400;
+width: 204px;
+/* height: 120px; */
+transform: rotate(-19.628deg);
+padding: 10px;
+position: relative;
+bottom: 150px;
+margin-left: 200px;
+}
+.save-up h3 {
+    color: #FFF;
+font-family: Mulish;
+font-size: 22px;
+font-weight: 800;
+text-align: center;
+}
+.save-up p {
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+}
 /* footer start */
 footer {
     background: rgba(19, 19, 24, 0.05);
-    margin-top: 80px;
+    /* margin-top: 80px; */
+    height: 350px;
 }
 .footer-title img {
     width: 40px;
@@ -393,10 +435,10 @@ footer {
 }
 .footer-icon {
     display: flex;
-   width: 100px;
-
+   width: 150px;
+gap: 12px;
 }
 .footer-container h6 {
     margin-top: 30px;
-    padding-bottom: 70px;
+    
 }

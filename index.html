@@ -9,13 +9,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
    <header>
     <!-- nav start -->
     <nav>
+        <div class="nav-title">
         <img src="Images/Group 40071 (2).png">
-        <h3><span>Hero</span> Travel</h3>
+        <h3><span>Hero</span> Travel</h3> 
+        </div>
+        <div>
         <ul>
             <li><a href=""><span>Home</span></a></li>
             <li><a href="">Packages</a></li>
@@ -23,24 +27,30 @@
             <li><a href="">Blog</a></li>
             <li><a href="">Contact</a></li>
         </ul>
+        </div>
     </nav>
 
 <!-- banner start -->
        <div class="banner">
         
         <h1>Explore Your Travel</h1>
-        <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et<br> odio enim ac quis sapien urna eu phasellus.</p>
+        <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
         
     
             <form class="form-one">
             <input type="text" placeholder="Where go">
-            <input type="text" placeholder="When">
-            <input type="text" placeholder="Select Type">
+            <select id="">
+                <option value="">When</option>
+            </select>
+            <select id="">
+                <option value="">Select Type</option>
+            </select>
             <input class="search" type="search"  placeholder="Find Now">
         </form>
        </div>
    </header> 
    <main>
+    <!-- our popular tour section-one start -->
    <section>
     <div class="popular-tours-container">
         <div class="popular-tours-content">
@@ -61,14 +71,14 @@
             </div>
     </div>
    </section>
-   <!-- Choose Your Destination saction start -->
+   <!-- Choose Your Destination section-two start -->
    <section>
     <div class="destination-container">
         <div class="destination-title">
             <h3>Choose Your Destination</h3>
             <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
         </div>
-        <div>
+        <div class="destination-img">
             <div class="destination-img-two">
                 <img src="Images/Rectangle 5.png">
                 <img src="Images/Rectangle 8.png">
@@ -85,7 +95,7 @@
         </div>
     </div>
    </section>
-   <!-- Why Choose Us section start -->
+   <!-- Why Choose Us section-three start -->
    <section>
     <div>
         <div class="choose-us-title">
@@ -112,23 +122,23 @@
     </div>
    </section>
 
-   <!--  Deals & Discounts section start -->
-   <section>
+   <!--  Deals & Discounts section-four start -->
+   <section class="discount">
     <div>
         <div class="discount-title">
             <h3>Deals & Discounts</h3>
             <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
         </div>
              <div class="satorini-container">
-                <div class="satorini-one">
-                <div class="icons">
-                    <img src="icon/watch.jpg">
-                    <p>7 Day / 6 Night</p>
-                    <img src="icon/people.jpg">
-                    <p>Max : 10</p>
-                    <img src="icon/location.png">
-                    <p>Malaysia</p>
-                </div>
+                  <div class="satorini-one">
+                    <div class="icons">
+                      <img src="icon/watch.jpg">
+                       <p>7 Day / 6 Night</p>
+                       <img src="icon/people.jpg">
+                       <p>Max : 10</p>
+                       <img src="icon/location.png">
+                       <p>Malaysia</p>
+                    </div>
                 <h4>Tour To Satorini</h4>
                 <p>Amet consectetur. Vulputate commodo felis 
                     molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
@@ -177,7 +187,7 @@
     </div>
 
    </section>
-   <!-- Simple Perfect Place section start -->
+   <!-- Simple Perfect Place section-five start -->
    <section>
     <div class="perfect-place-container">
         <div class="perfect-place-title">
@@ -194,7 +204,7 @@
         </div>
     </div>
    </section>
-   <!-- Newsletter section start -->
+   <!-- Newsletter section-six start -->
    <section>
      <div class="newsletter">
         <div class="newsletter-title">
@@ -209,8 +219,13 @@
                 <button class="Subscribe">Subscribe</button>
             </form>
         </div>
-        <div>
+        <div class="newsletter-img">
             <img src="Images/Rectangle 8 (1).png">
+            <div class="save-up">
+                <p>Travel.com</p>
+                <h3>Save up to 70%</h3>
+
+            </div>
         </div>
      </div>
    </section>

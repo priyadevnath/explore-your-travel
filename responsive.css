@@ -1,0 +1,284 @@
+@media screen and (max-width: 576px){
+.discount {
+    display: none;
+}
+/* nav start */
+nav img {
+        max-width: 50px;
+        margin: 10px;
+}
+.nav-title {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    flex-direction: column;
+}
+nav ul {
+    flex-direction: column;
+}
+nav h3 {
+    font-size: 30px;
+}
+nav a span {
+    font-size: 22px;
+}
+/* banner start */
+.banner {
+    height: 400px;
+}
+.banner h1 {
+    font-size: 22px;
+    padding-top: 30px;
+}
+.banner p {
+font-size: 12px;
+}
+.form-one {
+    flex-direction: column;
+width: 150px;
+padding: 16px;
+align-items: flex-start;
+/* gap: 10px; */
+height: 160px;
+width: 200px;
+}
+/* header end */
+/* section-one start */
+.popular-tours-container {
+    flex-direction: column;
+}
+.popular-tours-content h3 {
+    font-size: 25px;
+}
+.popular-tours-content p {
+font-size: 14px;
+margin-top: 15px;
+}
+.popular-tours-content ul {
+    font-size: 14px;
+margin-top: 15px;
+}
+.popular-tours-content {
+    margin-right: 0px;
+}
+    .primary-btn {
+    font-size: 16px;
+    width: 130px;
+    padding: 10px;
+    }
+    .popular-tours-img img {
+        width: 400px;
+        max-width: 100%;
+        height: 300px;
+}
+
+.popular-tours-content button {
+    width: 120px;
+} ;
+
+
+
+/* section-two start */
+
+.destination-title {
+    width: 280px;
+    margin: 30px auto;
+    text-align: center;
+}   
+.destination-title h3 {
+font-size: 22px;
+}
+.destination-title p {
+    font-size: 14px;
+}
+.destination-img img {
+    width: 250px;
+    height: 150px;
+}
+.destination-img-two {
+  grid-template-columns: 1fr;
+}
+.destination-img-three {
+    grid-template-columns: 1fr;
+}
+.destination-img-square {
+    grid-template-columns: 1fr;
+}
+
+/* section-three start */
+.choose-us-title {
+        width: 280px;
+        margin: 30px auto;
+        text-align: center;
+}
+.choose-us-title h3 {
+    font-size: 22px;
+}
+.choose-us-title p {
+    font-size: 12px;
+    margin-top: 10px
+}
+.choose-us-location {
+   flex-direction: column;
+}
+
+
+.icon-hotel {
+    padding: 10px;
+}
+.icon-map {
+    padding:10px ;
+}
+.icon-hotel img{
+    width: 50px;}
+.icon-hotel h4 {
+    font-size: 22px;
+}
+.icon-hotel p {
+    font-size: 12px;
+}
+.icon-map img{
+    width: 40px;}
+.icon-map h4 {
+    font-size: 22px;
+}
+.icon-map p {
+    font-size: 12px;
+}
+
+
+.icon-money {
+    width: 250px;
+    margin: 0 auto;
+    gap: 0px;
+padding: 10px;
+}
+.icon-money img {
+    width: 40px;
+}
+.icon-money h4 {
+font-size: 22px;
+}
+.icon-money p {
+font-size: 12px;
+}
+
+/* section four start */
+.discount-title {
+    width: 280px;
+    margin: 30px auto;
+    text-align: center;  
+    margin-top: 30px;
+}
+.discount-title h3 {
+    font-size: 22px;
+}
+.discount-title p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.satorini-two h4 {
+    font-size: 18px;
+}
+.satorini-two span {
+    font-size: 16px;
+}
+.satorini-two p {
+    font-size: 12px;
+}
+.icon {
+    gap: 5px;
+}
+.all-package button {
+text-align: center;
+font-size: 16px;
+padding: 10px;
+width: 180px;
+margin-top: 20px;
+}
+
+ /* section five start */
+ .perfect-place-container{
+    flex-direction: column;
+    margin-top: 10px;
+ }
+ .perfect-place-title {
+    margin-right: 30px;
+ }      
+ .perfect-place-title h3 {
+    font-size: 20px;
+ }
+.perfect-place-title p {
+    font-size: 13px;
+}
+.perfect-place-title li {
+    font-size: 14px;
+}
+.vedio  video {
+width: 250px;
+}
+
+/* section six start */
+.newsletter {
+    flex-direction: column;
+}
+.newsletter-title p {
+    font-size: 12px;
+}
+.form-two input {
+    width: 200px;
+height: 52px;
+}
+.form-two button  {
+    font-size: 18px;
+    padding: 10px;
+    width: 220px;
+}
+.newsletter-img img {
+    width: 250px;
+    height: 200px;
+}
+.newsletter-img{
+ margin-top: 20px;
+}
+.save-up {
+    width: 150px;
+    padding: 0px;
+    bottom: 100px;
+    margin-left: 80px;
+}
+.save-up h3 {
+font-size: 16px;
+}
+.save-up p {
+font-size: 14px;
+}
+
+/* footer start */
+.footer-title img {
+    width: 30px;
+}
+.footer-title h1 {
+    font-size: 24px;
+}
+.footer-title span {
+    font-size: 24px;
+}
+.footer-title {
+    max-width: 180px;
+    width: 100%;
+    margin: 0 auto;
+     padding-top: 30px;
+} 
+.footer-container p {
+    font-size: 14px;
+}
+
+.primary-btn {
+    font-size: 16px;
+    border: none;
+    width: 100px;  
+}
+}
