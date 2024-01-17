@@ -1,7 +1,6 @@
+/* mobile device */
 @media screen and (max-width: 576px){
-.discount {
-    display: none;
-}
+
 /* nav start */
 nav img {
         max-width: 50px;
@@ -165,39 +164,11 @@ font-size: 22px;
 font-size: 12px;
 }
 
-/* section four start */
-.discount-title {
-    width: 280px;
-    margin: 30px auto;
-    text-align: center;  
-    margin-top: 30px;
-}
-.discount-title h3 {
-    font-size: 22px;
-}
-.discount-title p {
-    font-size: 12px;
-    margin-top: 10px;
-}
-.satorini-two h4 {
-    font-size: 18px;
-}
-.satorini-two span {
-    font-size: 16px;
-}
-.satorini-two p {
-    font-size: 12px;
-}
-.icon {
-    gap: 5px;
-}
-.all-package button {
-text-align: center;
-font-size: 16px;
-padding: 10px;
-width: 180px;
-margin-top: 20px;
-}
+/* section four hide */
+
+.discount {
+    display: none;}
+
 
  /* section five start */
  .perfect-place-container{
