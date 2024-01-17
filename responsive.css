@@ -82,12 +82,12 @@ margin-top: 15px;
 /* section-two start */
 
 .destination-title {
-    width: 280px;
-    margin: 30px auto;
-    text-align: center;
+    width: 230px;
+    /* margin: 30px auto; */
+    /* text-align: center; */
 }   
 .destination-title h3 {
-font-size: 22px;
+font-size: 18px;
 }
 .destination-title p {
     font-size: 14px;
